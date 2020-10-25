@@ -21,7 +21,7 @@ AR Path="/5F74556D" Ref="RV1"  Part="1"
 AR Path="/5F20D2A9/5F74556D" Ref="RV?"  Part="1" 
 F 0 "RV1" V 1675 925 50  0000 C CNN
 F 1 "100k" V 1600 925 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 1400 900 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1400 900 50  0001 C CNN
 F 3 "~" H 1400 900 50  0001 C CNN
 	1    1400 900 
 	0    -1   -1   0   
@@ -145,7 +145,7 @@ AR Path="/5F75DCFF" Ref="RV2"  Part="1"
 AR Path="/5F20D2A9/5F75DCFF" Ref="RV?"  Part="1" 
 F 0 "RV2" V 1675 2075 50  0000 C CNN
 F 1 "100k" V 1600 2075 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 1400 2050 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1400 2050 50  0001 C CNN
 F 3 "~" H 1400 2050 50  0001 C CNN
 	1    1400 2050
 	0    -1   -1   0   
@@ -277,7 +277,7 @@ U 1 1 5F8BBEEE
 P 4350 2900
 F 0 "RV7" H 4281 2854 50  0000 R CNN
 F 1 "100k" H 4281 2945 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 4350 2900 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 4350 2900 50  0001 C CNN
 F 3 "~" H 4350 2900 50  0001 C CNN
 	1    4350 2900
 	1    0    0    1   
@@ -492,7 +492,7 @@ AR Path="/5F9F4B41" Ref="RV3"  Part="1"
 AR Path="/5F20D2A9/5F9F4B41" Ref="RV?"  Part="1" 
 F 0 "RV3" V 1675 3275 50  0000 C CNN
 F 1 "100k" V 1600 3275 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 1400 3250 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1400 3250 50  0001 C CNN
 F 3 "~" H 1400 3250 50  0001 C CNN
 	1    1400 3250
 	0    -1   -1   0   
@@ -605,7 +605,7 @@ AR Path="/5F9F4B84" Ref="RV4"  Part="1"
 AR Path="/5F20D2A9/5F9F4B84" Ref="RV?"  Part="1" 
 F 0 "RV4" V 1675 4425 50  0000 C CNN
 F 1 "100k" V 1600 4425 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 1400 4400 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1400 4400 50  0001 C CNN
 F 3 "~" H 1400 4400 50  0001 C CNN
 	1    1400 4400
 	0    -1   -1   0   
@@ -642,7 +642,7 @@ AR Path="/5FA033B7" Ref="RV5"  Part="1"
 AR Path="/5F20D2A9/5FA033B7" Ref="RV?"  Part="1" 
 F 0 "RV5" V 1675 5575 50  0000 C CNN
 F 1 "100k" V 1600 5575 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 1400 5550 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1400 5550 50  0001 C CNN
 F 3 "~" H 1400 5550 50  0001 C CNN
 	1    1400 5550
 	0    -1   -1   0   
@@ -766,7 +766,7 @@ AR Path="/5FA033FA" Ref="RV6"  Part="1"
 AR Path="/5F20D2A9/5FA033FA" Ref="RV?"  Part="1" 
 F 0 "RV6" V 1675 6725 50  0000 C CNN
 F 1 "100k" V 1600 6725 50  0000 C CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 1400 6700 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1400 6700 50  0001 C CNN
 F 3 "~" H 1400 6700 50  0001 C CNN
 	1    1400 6700
 	0    -1   -1   0   
@@ -938,7 +938,7 @@ U 1 1 5FA4D01A
 P 5200 6550
 F 0 "RV8" H 5131 6504 50  0000 R CNN
 F 1 "100k" H 5131 6595 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles" H 5200 6550 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 5200 6550 50  0001 C CNN
 F 3 "~" H 5200 6550 50  0001 C CNN
 	1    5200 6550
 	1    0    0    1   
