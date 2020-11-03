@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/rsholmes/GoogleDrive/Hobbies/Music/Instruments/synths/scratch/Noise bells/Hardware/PCB-aux/noisebells-aux/noisebells-aux.sch</source>
+    <date>Tue 03 Nov 2020 05:55:40 PM EST</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>4 jack board</title>
+        <company>Analog Output / Rich Holmes</company>
+        <rev/>
+        <date>2020-09-05</date>
+        <source>noisebells-aux.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F556FBD</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C6326</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C7136</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C78BA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6C7CF9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_SwitchT</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+        <pin num="TN" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J4" pin="S"/>
+      <node ref="J1" pin="S"/>
+      <node ref="J2" pin="S"/>
+      <node ref="J5" pin="S"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="J4" pin="T"/>
+    </net>
+    <net code="3" name="Net-(J2-PadT)">
+      <node ref="J3" pin="4"/>
+      <node ref="J2" pin="T"/>
+    </net>
+    <net code="4" name="Net-(J1-PadT)">
+      <node ref="J3" pin="5"/>
+      <node ref="J1" pin="T"/>
+    </net>
+    <net code="5" name="Net-(J5-PadTN)">
+      <node ref="J5" pin="TN"/>
+    </net>
+    <net code="6" name="Net-(J4-PadTN)">
+      <node ref="J4" pin="TN"/>
+    </net>
+    <net code="7" name="Net-(J2-PadTN)">
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="TN"/>
+      <node ref="J5" pin="T"/>
+    </net>
+    <net code="8" name="Net-(J1-PadTN)">
+      <node ref="J1" pin="TN"/>
+    </net>
+  </nets>
+</export>
