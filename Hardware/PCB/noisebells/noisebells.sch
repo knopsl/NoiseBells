@@ -282,10 +282,6 @@ F 3 "~" H 4350 2900 50  0001 C CNN
 	1    4350 2900
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	4350 3050 4500 3050
-Wire Wire Line
-	4500 3050 4500 2900
 $Comp
 L power:GND #PWR012
 U 1 1 5F8C6E8C
@@ -299,7 +295,6 @@ F 3 "" H 4350 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 3200 4350 3050
-Connection ~ 4350 3050
 Wire Wire Line
 	3950 2450 3950 2350
 Connection ~ 3950 2350
@@ -943,10 +938,6 @@ F 3 "~" H 5200 6550 50  0001 C CNN
 	1    5200 6550
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5200 6700 5350 6700
-Wire Wire Line
-	5350 6700 5350 6550
 $Comp
 L power:GND #PWR015
 U 1 1 5FA4D022
@@ -960,7 +951,6 @@ F 3 "" H 5200 6850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 6850 5200 6700
-Connection ~ 5200 6700
 Wire Wire Line
 	4800 6100 4800 6000
 Connection ~ 4800 6000
@@ -1630,4 +1620,14 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 6500 3700 50  0001 C CNN
 	1    6500 3700
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4350 2750 4500 2750
+Wire Wire Line
+	4500 2750 4500 2900
+Connection ~ 4350 2750
+Wire Wire Line
+	5350 6550 5350 6400
+Wire Wire Line
+	5350 6400 5200 6400
+Connection ~ 5200 6400
 $EndSCHEMATC
