@@ -13,7 +13,17 @@ Aside from a few component value changes, notably a larger capacitor allowing lo
 
 Pots are used for variable oscillator frequencies and amplitude envelope decay rates. 
 
-For BOM, schematics, and PCB layout see the [Docs](Docs) folder. The build should be entirely straightforward. Presumably any small signal NPN transistor can be substituted for the 2N3904, though I have not tested any others. **Note:** On the first run PCBs two capacitors are marked '10uF (47uF?)'. These are 10µF. Unless you like 47µF better of course.
+For BOM, schematics, and PCB layout see the [Docs](Docs) folder. The build should be entirely straightforward except, on the first run boards, for the issues mentioned below. Presumably any small signal NPN transistor can be substituted for the 2N3904, though I have not tested any others. 
+
+**Note:** On the first run PCBs the delay pots are connected incorrectly. To fix this, bend the middle leg up and solder it to the leg on its right (pin 2 to pin 3):
+
+![](Images/pot_fix.jpg)
+
+This is only for the two delay pots. The six oscillator frequency pots are okay.
+
+Also two capacitors are marked '10uF (47uF?)'. These are 10µF. Unless you like 47µF better of course.
+
+These problems are corrected in the current version.
 
 ![](Images/noisebells.jpg)
 ![](Images/noisebells-aux.jpg)
