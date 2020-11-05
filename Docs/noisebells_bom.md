@@ -21,7 +21,7 @@
 | U1 | 1 | 40106 | Hex Schmitt trigger inverter |  |
 | U2 | 1 | 4070 | Quad Xor 2 inputs |  |
 | U3 | 1 | 4066 | Quad Analog Switches |  |
-| | 3 | | 16 pin DIP sockets | |
+| | 3 | | 14 pin DIP sockets | |
 | | 8 | | Knobs | |
     
 ## Jacks board
