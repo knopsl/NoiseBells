@@ -1,6 +1,4 @@
-#Noise Bells synthesizer module
-
-**Untested hardware — Do not assume anything works!**
+# Noise Bells synthesizer module
 
 This is a percussion and drone synth module based on ideas presented in the 2015 Hackaday article "[Logic noise: More CMOS cowbell!](https://hackaday.com/2015/04/10/logic-noise-more-cmos-cowbell/)" by Elliot Williams. The PCB and front panel are Kosmo format but the same circuit could be implemented in Eurorack format, or other ±12V formats, with no changes other than PCB, panel, and jack dimensions.
 
