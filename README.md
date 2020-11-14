@@ -2,6 +2,8 @@
 
 This is a percussion and drone synth module based on ideas presented in the 2015 Hackaday article "[Logic noise: More CMOS cowbell!](https://hackaday.com/2015/04/10/logic-noise-more-cmos-cowbell/)" by Elliot Williams. The PCB and front panel are Kosmo format but the same circuit could be implemented in Eurorack format, or other ±12V formats, with no changes other than PCB, panel, and jack dimensions.
 
+![ ](Images/IMG_6415.JPG  "Noise Bells module")
+
 The module consists of two separate sections. One is a 2-oscillator circuit based on the "cowbell" section of the Hackaday article. The other is a 4-oscillator circuit, lying sort of halfway between the "cowbell" and "hi hat" designs and designed to use most of the IC functionality left over from the "cowbell" side. Whether it leans more toward bell or cymbal sounds I leave for you to decide. The two sections differ only in the number of oscillators and XORs used.
 
 Aside from a few component value changes, notably a larger capacitor allowing longer decay times, there are a couple of significant modifications to Williams's design:
