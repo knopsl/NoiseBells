@@ -7,7 +7,7 @@
 | C1, C2, C3, C4, C5, C6 | 6 | 100nF | Polystyrene capacitor | Tayda A-564 |
 | C7, C9, C13 | 2 | 10uF | Electrolytic capacitor | Tayda A-4349 |
 | C8, C10, C11, C12 | 4 | 47uF | Electrolytic capacitor | Tayda A-4518 |
-| C14, C15, C16 | 3 | 0.1uF | Ceramic capacitor | Tayda A-564 |
+| C14, C15, C16 | 3 | 0.1uF | Ceramic capacitor | Tayda A-553 |
 | D1, D2, D3, D4 | 4 | 1N4148 | 100V 0.15A standard switching diode, DO-35 | Tayda A-157 |
 | D5 | 1 | 1N5817 | 20V 1A Schottky Barrier Rectifier Diode, DO-41 | Tayda A-159 |
 | J1 | 1 | Synth_power_2x5 | 2x5 pin shrouded header | Tayda A-2939 |
