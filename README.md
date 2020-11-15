@@ -8,10 +8,10 @@ The module consists of two separate sections. One is a 2-oscillator circuit base
 
 Aside from a few component value changes, notably a larger capacitor allowing longer decay times, there are a couple of significant modifications to Williams's design:
 
-* The 2-diode "VCA" has been replaced by a 4066 analog switch "VCA" as discussed in the articles' comments and at [http://files.electro-music.com/forum/viewtopic.php?highlight=diode+vca&t=23960](http://files.electro-music.com/forum/viewtopic.php?highlight=diode+vca&t=23960). 
+* The 2-diode "VCA" has been replaced by a 4066 analog switch "VCA" as discussed in the article's comments and at [http://files.electro-music.com/forum/viewtopic.php?highlight=diode+vca&t=23960](http://files.electro-music.com/forum/viewtopic.php?highlight=diode+vca&t=23960). 
 * A switch has been added to bypass the EG/VCA section, sending the output of the final XOR straight to the output buffer. This allows using the module for noisy drones.
 
-Pots are used for variable oscillator frequencies and amplitude envelope decay rates. 
+Pots are used for variable oscillator frequencies and amplitude envelope decay rates. Trigger B input is normalled to Trigger A.
 
 For BOM, schematics, and PCB layout see the [Docs](Docs) folder. The build should be entirely straightforward except, on the first run boards, for the issues mentioned below. Presumably any small signal NPN transistor can be substituted for the 2N3904, though I have not tested any others. 
 
