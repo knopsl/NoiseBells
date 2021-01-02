@@ -1,4 +1,4 @@
-(module Power_Header (layer F.Cu) (tedit 5EEEC281)
+(module Power_Header (layer F.Cu) (tedit 5EEA25FD)
   (descr "Through hole straight IDC box header, 2x05, 2.54mm pitch, double rows")
   (tags "Through hole IDC box header THT 2x05 2.54mm double row")
   (fp_text reference REF** (at -5.85 5.67) (layer F.SilkS)
