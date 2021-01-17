@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ao_tht)(type KiCad)(uri ${KIPRJMOD}/ao_tht.pretty)(options "")(descr ""))
+  (lib (name noisebells_panel)(type KiCad)(uri "/home/rsholmes/Google Drive/Hobbies/Music/Instruments/synths/scratch/Noise bells/Panel/noisebells_panel/noisebells_panel.pretty")(options "")(descr ""))
+)
